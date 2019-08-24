@@ -1,0 +1,656 @@
+.color-normal{
+    height: 70px;
+    text-align: center;
+    width: auto;
+    background-color: #4F5252;
+    border-radius: 25px;
+}
+
+.color-blue{
+    height: 70px;
+    width: auto;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #33B8FF;
+}
+
+.no-line-height{
+    line-height: none;
+}
+
+.color-orange{
+    background-color: #FF8D1C;
+    height: 70px;
+    width: auto;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.navbar{
+    height: 70px;
+    text-align: center;
+    width: auto;
+    color: #fff;
+    background-color: #4F5252;
+    font-family: "Couirer New";
+    border-radius: 25px;
+    line-height: 70px;
+    padding: 10px 16px;
+}
+
+.navbar a{
+    color: #fff;
+    font-family: "Courier New";
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+.button{
+    height: 50px;
+    border-radius: 15px;
+    width: 150px;
+    line-height: 50px;
+    border: none;
+    text-align: center;
+    color: #fff;
+    font-family: "Courier New";
+    background-color: #4F5252;
+    font-size: 15px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.border-orange{
+    border: 2px solid #FF8D1C;
+}
+
+.border-blue{
+    border: 2px solid #33B8FF;
+}
+
+.border-normal{
+    border: 2px solid #4F5252;
+}
+
+.left{
+    margin-left: auto;
+}
+
+.right{
+    margin-right: auto;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.font-courier-new{
+    font-family: "Courier New";
+}
+
+.font-white{
+    color: #fff;
+}
+
+.font-black{
+    color: #000;
+}
+
+.font-white a{
+    color: #fff;
+}
+
+.font-black a{
+    color: #000;
+}
+
+.font-20px{
+    font-size: 20px;
+}
+
+.font-17px{
+    font-size: 17px;
+}
+
+.font-15px{
+    font-size: 15px;
+}
+
+.tall{
+    width: 100px;
+    height: 150px;
+}
+
+.long{
+    width: 150px;
+    height: 100px;
+}
+
+.title-courier-new{
+    font-size: 20px;
+    font-family: "Courier New";
+    color: #fff;
+    font-weight: 700;
+}
+
+.title-courier-new a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.title-source-sans-pro{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Source Sans Pro Bold";
+}
+
+.paragraph-source-sans-pro{
+    color: #fff;
+    font-size: 17px;
+    font-family: "Source Sans Pro Light";
+}
+
+/* Montserrat Bold */
+
+@font-face{
+    font-family: 'Montserrat Bold';
+    src: url(../Documents/Css/Montserrat/Montserrat-Bold.ttf);
+}
+
+/* Montserrat Light */
+
+@font-face{
+    font-family: 'Montserrat Light';
+    src: url(../Documents/Css/Montserrat/Montserrat-Light.ttf);
+}
+
+/* Montserrat Black */
+
+@font-face{
+    font-family: 'Montserrat Black';
+    src: url(../Documents/Css/Montserrat/Montserrat-Black.ttf);
+}
+
+/* Monserrat Extra Light */
+
+@font-face{
+    font-family: 'Montserrat Extra Light';
+    src: url(../Documents/Css/Montserrat/Montserrat-ExtraLight.ttf);
+}
+
+/* Montserrat Thin */
+
+@font-face{
+    font-family: 'Montserrat Thin';
+    src: url(../Documents/Css/Montserrat/Montserrat-Thin.ttf);
+}
+
+/* Montserrat */
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../Documents/Css/Montserrat/Montserrat-Regular.ttf);
+}
+
+/* Montserrat Medium */
+
+@font-face{
+    font-family: 'Montserrat Medium';
+    src: url(../Documents/Css/Montserrat/Montserrat-Medium.ttf);
+}
+
+/* Noto Sans Regular Size */
+
+@font-face{
+    font-family: 'Noto Sans';
+    src: url(../Documents/Css/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+/* Noto Sans Bold */
+
+@font-face{
+    font-family: 'Noto Sans Bold';
+    src: url(../Documents/Css/NotoSans-Bold.ttf);
+}
+
+/* Roboto Bold */
+
+@font-face{
+    font-family: 'Roboto Bold';
+    src: url(../Documents/Css/Roboto/Roboto-Bold.ttf);
+}
+
+/* Roboto Light */
+
+@font-face{
+    font-family: 'Roboto Light';
+    src: url(../Documents/Css/Roboto/Roboto-Light.ttf);
+}
+
+/* Roboto Black */
+
+@font-face{
+    font-family: 'Roboto Black';
+    src: url(../Documents/Css/Roboto/Roboto-Black.ttf);
+}
+
+/* Roboto Medium Size */
+
+@font-face{
+    font-family: 'Roboto Medium';
+    src: url(../Documents/Css/Roboto/Roboto-Medium.ttf);
+}
+
+/* Roboto */
+
+@font-face{
+    font-family: 'Roboto';
+    src: url(../Documents/Css/Roboto/Roboto-Regular.ttf);
+}
+
+/* Roboto Thin */
+
+@font-face{
+    font-family: 'Roboto Thin';
+    src: url(../Documents/Css/Roboto/Roboto-Thin.ttf);
+}
+
+/* Source Sans Pro Bold */
+
+@font-face{
+    font-family: 'Source Sans Pro Bold';
+    src: url(../Documents/Css/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+}
+
+/* Source Sans Pro Light */
+
+@font-face{
+    font-family: 'Source Sans Pro Light';
+    src: url(../Documents/Css/Source_Sans_Pro/SourceSansPro-Light.ttf);
+}
+
+/* Source Sans Pro Black */
+
+@font-face{
+    font-family: 'Source Sans Pro Black';
+    src: url(../Documents/Css/Source_Sans_Pro/SourceSansPro-Black.ttf);
+}
+
+/* Source Sans Pro Extra Light */
+
+@font-face{
+    font-family: 'Source Sans Pro Extra Light';
+    src: url(../Documents/Css/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf);
+}
+
+/* Source Sans Pro */
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    src: url(../Documents/Css/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+
+/* Source Sans Pro Semi Bold */
+
+@font-face{
+    font-family: 'Source Sans Pro Semi Bold';
+    src: url(../Documents/Css/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+}
+
+/* Lexend Deca */
+
+@font-face{
+    font-family: 'Lexend Deca';
+    src: url(../Documents/Css/Lexend_Deca/LexendDeca-Regular.ttf);
+}
+
+/* Oswald Bold */
+
+@font-face{
+    font-family: 'Oswald Bold';
+    src: url(../Documents/Css/Oswald/Osswald_Bold.ttf);
+}
+
+/* Oswald Extra Light */
+
+@font-face{
+    font-family: 'Oswald Extra Light';
+    src: url(../Documents/Css/Oswald/Oswald-ExtraLight.ttf);
+}
+
+/* Oswald Light */
+
+@font-face{
+    font-family: 'Oswald Light';
+    src: url(../Documents/Css/Oswald/Oswald-Light.ttf);
+}
+
+/* Oswald Medium Size */
+
+@font-face{
+    font-family: 'Oswald Medium';
+    src: url(../Documents/Css/Oswald/Oswald-Medium.ttf);
+}
+
+/* Oswald */
+
+@font-face{
+    font-family: 'Oswald';
+    src: url(../Documents/Css/Oswald/Oswald-Regular.ttf);
+}
+
+/* Oswald Variable Font */
+
+@font-face{
+    font-family: 'Oswald Variable Font';
+    src: url(../Documents/Css/Oswald/Oswald-VariableFont:wght.ttf);
+}
+
+/* Raleway Black */
+
+@font-face{
+    font-family: 'Raleway Black';
+    src: url(../Documents/Css/Raleway/Raleway-Black.ttf);
+}
+
+/* Raleway Bold */
+
+@font-face{
+    font-family: 'Raleway Bold';
+    src: url(../Documents/Css/Raleway/Raleway-Bold.ttf);
+}
+
+/* Raleway Extra Bold */
+
+@font-face{
+    font-family: 'Raleway Extra Bold';
+    src: url(../Documents/Css/Raleway/Raleway-ExtraBold.ttf);
+}
+
+/* Raleway Extra Light */
+
+@font-face{
+    font-family: 'Raleway Extra Light';
+    src: url(../Documents/Css/Raleway/Raleway-ExtraLight.ttf);
+}
+
+/* Raleway Light */
+
+@font-face{
+    font-family: 'Raleway Light';
+    src: url(../Documents/Css/Raleway/Raleway-Light.ttf);
+}
+
+/* Raleway Medium Size */
+
+@font-face{
+    font-family: 'Raleway Medium';
+    src: url(../Documents/Css/Raleway/Raleway-Medium.ttf);
+}
+
+/* Raleway */
+
+@font-face{
+    font-family: 'Raleway';
+    src: url(../Documents/Css/Raleway/Raleway-Regular.ttf);
+}
+
+/* Raleway Semi Bold */
+
+@font-face{
+    font-family: 'Raleway Semi Bold';
+    src: url(../Documents/Css/Raleway/Raleway-SemiBold.ttf);
+}
+
+/* Raleway Thin */
+
+@font-face{
+    font-family: 'Raleway Thin';
+    src: url(../Documents/Css/Raleway/Raleway-Thin.ttf);
+}
+
+.font-italic{
+    font-style: italic;
+}
+
+.font-bold{
+    font-style: bold;
+}
+
+.paragraph-source-sans-pro a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.title-source-sans-pro a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.title-noto-sans{
+    font-family: "Noto Sans Bold";
+    color: #fff;
+    font-size: 20px;
+}
+
+.title-noto-sans a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.paragraph-noto-sans{
+    color: #fff;
+    font-size: 17px;
+    font-family: "Noto Sans Bold";
+}
+
+.paragraph-noto-sans a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.title-roboto{
+    font-size: 20px;
+    font-family: "Roboto Bold";
+    color: #fff;
+}
+
+.title-roboto a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.title-montserrat{
+    font-size: 20px;
+    font-family: "Montserrat Bold";
+    color: #fff;
+}
+
+.title-montserrat a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.paragraph-montserrat{
+    font-size: 17px;
+    color: #fff;
+    font-family: "Montserrat Light";
+}
+
+.paragraph-montserrat a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.text{
+    height: 50px;
+    width: 150px;
+    background-color: #4F5252;
+    text-align: center;
+    color: #fff;
+    font-family: "Courier New";
+    line-height: 50px;
+    font-size: 17px;
+}
+
+.paragraph-courier-new{
+    font-size: 17px;
+    color: #fff;
+    font-family: "Courier New";
+    font-weight: 100;
+}
+
+.paragraph-courier-new a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.paragraph-roboto{
+    font-size: 17px;
+    color: #fff;
+    font-family: "Roboto";
+}
+
+.paragraph-roboto a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.orange{
+    background-color: #FF611C;
+}
+
+.normal{
+    background-color: #363737;
+}
+
+.blue{
+    background-color: #337DFF;
+}
+
+.white{
+    background-color: #fff;
+}
+
+.green{
+  background-color: #28C782;
+}
+
+.black{
+    background-color: #000;
+}
+
+.color-black{
+    background-color: #363737;
+}
+
+.title-oswald{
+    font-size: 20px;
+    font-family: "Oswald Bold";
+    color: #fff;
+}
+
+.paragraph-oswald{
+    font-family: "Oswald Light";
+    color: #fff;
+    font-size: 20px;
+}
+
+.gradient-orange{
+  background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%);
+}
+.gradient-orange:hover {
+  background-position: right center;
+}
+
+.gradient-normal{
+  background-image: linear-gradient(to right, #1F1C2C 0%, #928DAB 51%, #1F1C2C 100%);
+}
+
+.gradient-normal:hover{
+  background-position: right center;
+}
+
+.gradient-blue{
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+}
+
+.gradient-blue:hover{
+  background-position: right center;
+}
+
+.gradient-white{
+  background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF 51%, #ECE9E6 100%);
+  color: #000;
+}
+.gradient-white:hover{
+  background-position: right center;
+}
+
+.gradient-green{
+  background-image: linear-gradient( 180.5deg,  rgba(0,128,128,1) 8.5%, rgba(174,206,100,1) 118.2% );
+}
+
+.gradient-green:hover{
+  background-position: right center;
+}
+
+.border-black{
+  border: 2px solid #000;
+}
+
+.navbar-button-color-normal{
+  background-color: #363737;
+}
+
+.navbar-button-right{
+  color: #fff;
+  height: 70px;
+  width: 150px;
+  text-align: center;
+  font-family: "Courier New";
+  font-size: 17px;
+  border: none;
+  border-radius: 15px;
+  float: right;
+  margin-right: 10px;
+
+}
+
+.navbar-button-left{
+  height: 50px;
+  float: left;
+  width: 150px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 25px;
+  font-size: 17px;
+  font-family: "Courier New";
+  border: none;
+  color: #fff;
+}
+/* Notes
+
+Body Background Color:
+
+Blue: #337DFF
+Normal: #363737
+Orange: #FF611C
+*/
