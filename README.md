@@ -18,7 +18,7 @@ Extract the .zip file anywhere you want.
 
 
 
-To replace the information inside the button, just type in whatever you want, and to modify where it suppose to go, place the path in the ```<a href="Path">``` (replace the Path text with the path to the file).
+To replace the information inside the button, just type in whatever you want, and to modify where it suppose to go, place the path in the ```<onclick="location.href='Path'">``` (replace the Path text with the path to the file).
 
 
 
